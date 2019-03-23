@@ -21,10 +21,11 @@ chmod 511 aufwarfheit/auftrauer
 chmod 530 aufwarfheit
 mkdir -m 436 angekraust 
 mkdir -p ensitzung/ensitzen 
-mkdir -m 340 ensitzung/ensitzen/behaltst 
+mkdir -m 304 ensitzung/ensitzen/behaltst 
 mkdir -m 131 ensitzung/ensitzen/enkatzetest 
 chmod 154 ensitzung/ensitzen
 chmod 230 ensitzung 
 
 cd ..
+chmod 775 unit1exercise1
 sudo tar -zcvf unit1-solution1.tgz unit1exercise1
