@@ -1,0 +1,568 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cn: admin
+cn: Fifi Davies
+cn: Fifi Roberts
+cn: Fifi Smith
+cn: Fifi Walker
+cn: Fiona James
+cn: Fiona Jones
+cn: Fleur White
+cn: Fleur Williams
+cn: Flora Harris
+cn: Flora Watson
+cn: Flora Wood
+cn: Francesca Green
+cn: Francesca Johnson
+cn: Francesca Walker
+cn: Frances Evans
+cn: Frances Thomas
+cn: Fran Watson
+cn: Freya Clarke
+cn: Freya Lewis
+cn: Freya Robinson
+cn: Freya Williams
+cn: Magnus Martin
+cn: Magnus Wright
+cn: Mario Clarke
+cn: Mario Jackson
+cn: Mario Williams
+cn: Mark Clarke
+cn: Mark King
+cn: Martin Davies
+cn: Martin Jackson
+cn: Matthew James
+cn: Matthew Lewis
+cn: Micah Harris
+cn: Micah Jackson
+cn: Micah Jones
+cn: Micah Martin
+cn: Micah Taylor
+cn: Micah Watson
+cn: Mitchell Brown
+cn: Mitchell Lee
+cn: Mitchell Robinson
+cn: Morgan Robinson
+cn: Morgan Smith
+cn: Murphey Thomas
+cn: Murphey Wood
+cn: Murray Green
+cn: Murray James
+cn: Murray Smith
+dc: Adjectival Investments
+dc: Consolidated Nuclear Industries
+dc: Monopolistic Realty
+dc: nodomain
+dc: Premium Nuclear Industries
+dc: Trans-Urannic Productions
+description: LDAP administrator
+dn: cn=admin,dc=nodomain
+dn: cn=Fifi Davies,ou=Finance,ou=Research,dc=Premium Nuclear Industries,dc=nodomain
+dn: cn=Fifi Roberts,ou=Interplanetary exploration,ou=market punctuation,dc=Monopolistic Realty,dc=nodomain
+dn: cn=Fifi Smith,ou=Pest control,ou=Accounting,ou=Truth,dc=Consolidated Nuclear Industries,dc=nodomain
+dn: cn=Fifi Walker,ou=Finance,ou=Research,dc=Premium Nuclear Industries,dc=nodomain
+dn: cn=Fiona James,ou=Finance,ou=Research,dc=Premium Nuclear Industries,dc=nodomain
+dn: cn=Fiona Jones,ou=Interplanetary exploration,ou=market punctuation,dc=Monopolistic Realty,dc=nodomain
+dn: cn=Fleur White,ou=Human resources,ou=Embezzelment,dc=Trans-Urannic Productions,dc=nodomain
+dn: cn=Fleur Williams,ou=market punctuation,ou=Research,dc=Premium Nuclear Industries,dc=nodomain
+dn: cn=Flora Harris,ou=market punctuation,ou=Research,dc=Premium Nuclear Industries,dc=nodomain
+dn: cn=Flora Watson,ou=Truth,dc=Consolidated Nuclear Industries,dc=nodomain
+dn: cn=Flora Wood,ou=Pest control,ou=Accounting,ou=Truth,dc=Consolidated Nuclear Industries,dc=nodomain
+dn: cn=Francesca Green,ou=market punctuation,ou=Research,dc=Premium Nuclear Industries,dc=nodomain
+dn: cn=Francesca Johnson,ou=market punctuation,ou=Research,dc=Premium Nuclear Industries,dc=nodomain
+dn: cn=Francesca Walker,ou=Human resources,ou=Embezzelment,dc=Trans-Urannic Productions,dc=nodomain
+dn: cn=Frances Evans,ou=Accounting,ou=Truth,dc=Consolidated Nuclear Industries,dc=nodomain
+dn: cn=Frances Thomas,ou=Interplanetary exploration,ou=market punctuation,dc=Monopolistic Realty,dc=nodomain
+dn: cn=Fran Watson,ou=Accounting,ou=Truth,dc=Consolidated Nuclear Industries,dc=nodomain
+dn: cn=Freya Clarke,ou=Consolidation,dc=Adjectival Investments,dc=nodomain
+dn: cn=Freya Lewis,ou=Consolidation,dc=Adjectival Investments,dc=nodomain
+dn: cn=Freya Robinson,ou=Human resources,ou=Truth,dc=Consolidated Nuclear Industries,dc=nodomain
+dn: cn=Freya Williams,ou=Pest control,ou=Accounting,ou=Truth,dc=Consolidated Nuclear Industries,dc=nodomain
+dn: cn=Magnus Martin,ou=Finance,ou=Research,dc=Premium Nuclear Industries,dc=nodomain
+dn: cn=Magnus Wright,ou=Human resources,ou=Embezzelment,dc=Trans-Urannic Productions,dc=nodomain
+dn: cn=Mario Clarke,ou=Research,dc=Premium Nuclear Industries,dc=nodomain
+dn: cn=Mario Jackson,ou=market punctuation,dc=Monopolistic Realty,dc=nodomain
+dn: cn=Mario Williams,ou=Finance,ou=Research,dc=Premium Nuclear Industries,dc=nodomain
+dn: cn=Mark Clarke,ou=Pest control,ou=Accounting,ou=Truth,dc=Consolidated Nuclear Industries,dc=nodomain
+dn: cn=Mark King,ou=Accounting,ou=Truth,dc=Consolidated Nuclear Industries,dc=nodomain
+dn: cn=Martin Davies,ou=market punctuation,ou=Consolidation,dc=Adjectival Investments,dc=nodomain
+dn: cn=Martin Jackson,ou=Interplanetary exploration,ou=market punctuation,dc=Monopolistic Realty,dc=nodomain
+dn: cn=Matthew James,ou=Human resources,ou=Truth,dc=Consolidated Nuclear Industries,dc=nodomain
+dn: cn=Matthew Lewis,ou=Pest control,ou=Accounting,ou=Truth,dc=Consolidated Nuclear Industries,dc=nodomain
+dn: cn=Micah Harris,ou=Human resources,ou=Embezzelment,dc=Trans-Urannic Productions,dc=nodomain
+dn: cn=Micah Jackson,ou=market punctuation,dc=Monopolistic Realty,dc=nodomain
+dn: cn=Micah Jones,ou=Consolidation,dc=Adjectival Investments,dc=nodomain
+dn: cn=Micah Martin,ou=Embezzelment,dc=Trans-Urannic Productions,dc=nodomain
+dn: cn=Micah Taylor,ou=market punctuation,dc=Monopolistic Realty,dc=nodomain
+dn: cn=Micah Watson,ou=Truth,dc=Consolidated Nuclear Industries,dc=nodomain
+dn: cn=Mitchell Brown,ou=Interplanetary exploration,ou=market punctuation,dc=Monopolistic Realty,dc=nodomain
+dn: cn=Mitchell Lee,ou=market punctuation,dc=Monopolistic Realty,dc=nodomain
+dn: cn=Mitchell Robinson,ou=market punctuation,ou=Research,dc=Premium Nuclear Industries,dc=nodomain
+dn: cn=Morgan Robinson,ou=Finance,ou=Research,dc=Premium Nuclear Industries,dc=nodomain
+dn: cn=Morgan Smith,ou=Accounting,ou=Truth,dc=Consolidated Nuclear Industries,dc=nodomain
+dn: cn=Murphey Thomas,ou=market punctuation,ou=Consolidation,dc=Adjectival Investments,dc=nodomain
+dn: cn=Murphey Wood,ou=Embezzelment,dc=Trans-Urannic Productions,dc=nodomain
+dn: cn=Murray Green,ou=Embezzelment,dc=Trans-Urannic Productions,dc=nodomain
+dn: cn=Murray James,ou=market punctuation,dc=Monopolistic Realty,dc=nodomain
+dn: cn=Murray Smith,ou=market punctuation,ou=Research,dc=Premium Nuclear Industries,dc=nodomain
+dn: dc=Adjectival Investments,dc=nodomain
+dn: dc=Consolidated Nuclear Industries,dc=nodomain
+dn: dc=Monopolistic Realty,dc=nodomain
+dn: dc=nodomain
+dn: dc=Premium Nuclear Industries,dc=nodomain
+dn: dc=Trans-Urannic Productions,dc=nodomain
+dn: ou=Accounting,ou=Truth,dc=Consolidated Nuclear Industries,dc=nodomain
+dn: ou=Consolidation,dc=Adjectival Investments,dc=nodomain
+dn: ou=Embezzelment,dc=Trans-Urannic Productions,dc=nodomain
+dn: ou=Finance,ou=Research,dc=Premium Nuclear Industries,dc=nodomain
+dn: ou=Human resources,ou=Embezzelment,dc=Trans-Urannic Productions,dc=nodomain
+dn: ou=Human resources,ou=Truth,dc=Consolidated Nuclear Industries,dc=nodomain
+dn: ou=Interplanetary exploration,ou=market punctuation,dc=Monopolistic Realty,dc=nodomain
+dn: ou=market punctuation,dc=Monopolistic Realty,dc=nodomain
+dn: ou=market punctuation,ou=Consolidation,dc=Adjectival Investments,dc=nodomain
+dn: ou=market punctuation,ou=Research,dc=Premium Nuclear Industries,dc=nodomain
+dn: ou=Pest control,ou=Accounting,ou=Truth,dc=Consolidated Nuclear Industries,dc=nodomain
+dn: ou=Research,dc=Premium Nuclear Industries,dc=nodomain
+dn: ou=Truth,dc=Consolidated Nuclear Industries,dc=nodomain
+mail: fclarke@premiumnuclearindustries.com.nz
+mail: fifi4d6@monopolisticrealty.com.ki
+mail: fifi4w6@consolidatednuclearindustries.com.nf
+mail: fiona5j5@adjectivalinvestments.com.nf
+mail: fiona.jones@monopolisticrealty.com.ki
+mail: fleur.white@consolidatednuclearindustries.com.nf
+mail: fleur.williams@adjectivalinvestments.com.nf
+mail: flewis@premiumnuclearindustries.com.nz
+mail: flora5h6@monopolisticrealty.com.ki
+mail: fr29@adjectivalinvestments.com.nf
+mail: francesca9j7@monopolisticrealty.com.ki
+mail: francesca9w6@transurannicproductions.com.nf
+mail: francesca.green@premiumnuclearindustries.com.nz
+mail: frances.evans@monopolisticrealty.com.ki
+mail: frances.thomas@monopolisticrealty.com.ki
+mail: frobinson@transurannicproductions.com.nf
+mail: fsmith@monopolisticrealty.com.ki
+mail: fw11@consolidatednuclearindustries.com.nf
+mail: fw34@premiumnuclearindustries.com.nz
+mail: fw8@monopolisticrealty.com.ki
+mail: fwatson@premiumnuclearindustries.com.nz
+mail: mario5c6@consolidatednuclearindustries.com.nf
+mail: mario5w8@transurannicproductions.com.nf
+mail: martin.davies@adjectivalinvestments.com.nf
+mail: martin.jackson@premiumnuclearindustries.com.nz
+mail: matthew7j5@monopolisticrealty.com.ki
+mail: mbrown@consolidatednuclearindustries.com.nf
+mail: mclarke@adjectivalinvestments.com.nf
+mail: mg32@consolidatednuclearindustries.com.nf
+mail: mharris@transurannicproductions.com.nf
+mail: micah5m6@premiumnuclearindustries.com.nz
+mail: micah.watson@transurannicproductions.com.nf
+mail: mitchell8l3@transurannicproductions.com.nf
+mail: mitchell8r8@monopolisticrealty.com.ki
+mail: mj4@adjectivalinvestments.com.nf
+mail: mjackson@consolidatednuclearindustries.com.nf
+mail: mjones@transurannicproductions.com.nf
+mail: mk24@adjectivalinvestments.com.nf
+mail: ml2@adjectivalinvestments.com.nf
+mail: mmartin@monopolisticrealty.com.ki
+mail: mr13@premiumnuclearindustries.com.nz
+mail: msmith@premiumnuclearindustries.com.nz
+mail: mtaylor@consolidatednuclearindustries.com.nf
+mail: murphey7t6@premiumnuclearindustries.com.nz
+mail: murray.james@monopolisticrealty.com.ki
+mail: murray.smith@premiumnuclearindustries.com.nz
+mail: mw46@transurannicproductions.com.nf
+mail: mwright@consolidatednuclearindustries.com.nf
+manager: cn=Fifi Davies,ou=Finance,ou=Research
+manager: cn=Fifi Davies,ou=Finance,ou=Research
+manager: cn=Fifi Davies,ou=Finance,ou=Research
+manager: cn=Fifi Walker,ou=Finance,ou=Research
+manager: cn=Fifi Walker,ou=Finance,ou=Research
+manager: cn=Flora Watson,ou=Truth
+manager: cn=Francesca Green,ou=market punctuation,ou=Research
+manager: cn=Francesca Walker,ou=Human resources,ou=Embezzelment
+manager: cn=Frances Evans,ou=Accounting,ou=Truth
+manager: cn=Frances Evans,ou=Accounting,ou=Truth
+manager: cn=Frances Evans,ou=Accounting,ou=Truth
+manager: cn=Frances Evans,ou=Accounting,ou=Truth
+manager: cn=Frances Evans,ou=Accounting,ou=Truth
+manager: cn=Frances Thomas,ou=Interplanetary exploration,ou=market punctuation
+manager: cn=Frances Thomas,ou=Interplanetary exploration,ou=market punctuation
+manager: cn=Fran Watson,ou=Accounting,ou=Truth
+manager: cn=Freya Lewis,ou=Consolidation
+manager: cn=Freya Lewis,ou=Consolidation
+manager: cn=Freya Williams,ou=Pest control,ou=Accounting,ou=Truth
+manager: cn=Magnus Martin,ou=Finance,ou=Research
+manager: cn=Magnus Wright,ou=Human resources,ou=Embezzelment
+manager: cn=Mario Jackson,ou=market punctuation
+manager: cn=Mario Jackson,ou=market punctuation
+manager: cn=Mario Jackson,ou=market punctuation
+manager: cn=Mario Williams,ou=Finance,ou=Research
+manager: cn=Martin Davies,ou=market punctuation,ou=Consolidation
+manager: cn=Martin Davies,ou=market punctuation,ou=Consolidation
+manager: cn=Matthew Lewis,ou=Pest control,ou=Accounting,ou=Truth
+manager: cn=Matthew Lewis,ou=Pest control,ou=Accounting,ou=Truth
+manager: cn=Matthew Lewis,ou=Pest control,ou=Accounting,ou=Truth
+manager: cn=Micah Harris,ou=Human resources,ou=Embezzelment
+manager: cn=Micah Martin,ou=Embezzelment
+manager: cn=Micah Martin,ou=Embezzelment
+manager: cn=Micah Martin,ou=Embezzelment
+manager: cn=Micah Taylor,ou=market punctuation
+manager: cn=Micah Watson,ou=Truth
+manager: cn=Mitchell Brown,ou=Interplanetary exploration,ou=market punctuation
+manager: cn=Mitchell Lee,ou=market punctuation
+manager: cn=Mitchell Lee,ou=market punctuation
+manager: cn=Morgan Robinson,ou=Finance,ou=Research
+manager: cn=Morgan Robinson,ou=Finance,ou=Research
+manager: cn=Murray Smith,ou=market punctuation,ou=Research
+manager: cn=Murray Smith,ou=market punctuation,ou=Research
+o: Adjectival Investments.
+objectClass: dcObject
+objectClass: dcObject
+objectClass: dcObject
+objectClass: dcObject
+objectClass: dcObject
+objectClass: dcObject
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: inetOrgPerson
+objectClass: organization
+objectClass: organization
+objectClass: organization
+objectClass: organization
+objectClass: organization
+objectClass: organization
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalPerson
+objectClass: organizationalRole
+objectClass: organizationalUnit
+objectClass: organizationalUnit
+objectClass: organizationalUnit
+objectClass: organizationalUnit
+objectClass: organizationalUnit
+objectClass: organizationalUnit
+objectClass: organizationalUnit
+objectClass: organizationalUnit
+objectClass: organizationalUnit
+objectClass: organizationalUnit
+objectClass: organizationalUnit
+objectClass: organizationalUnit
+objectClass: organizationalUnit
+objectClass: simpleSecurityObject
+objectClass: top
+o: Consolidated Nuclear Industries.
+o: Monopolistic Realty.
+o: nodomain
+o: Premium Nuclear Industries.
+o: Trans-Urannic Productions.
+ou: Accounting
+ou: Consolidation
+ou: Embezzelment
+ou: Finance
+ou: Human resources
+ou: Human resources
+ou: Interplanetary exploration
+ou: market punctuation
+ou: market punctuation
+ou: market punctuation
+ou: Pest control
+ou: Research
+ou: Truth
+sn: Brown
+sn: Clarke
+sn: Clarke
+sn: Clarke
+sn: Davies
+sn: Davies
+sn: Evans
+sn: Green
+sn: Green
+sn: Harris
+sn: Harris
+sn: Jackson
+sn: Jackson
+sn: Jackson
+sn: James
+sn: James
+sn: James
+sn: Johnson
+sn: Jones
+sn: Jones
+sn: King
+sn: Lee
+sn: Lewis
+sn: Lewis
+sn: Martin
+sn: Martin
+sn: Roberts
+sn: Robinson
+sn: Robinson
+sn: Robinson
+sn: Smith
+sn: Smith
+sn: Smith
+sn: Taylor
+sn: Thomas
+sn: Thomas
+sn: Walker
+sn: Walker
+sn: Watson
+sn: Watson
+sn: Watson
+sn: White
+sn: Williams
+sn: Williams
+sn: Williams
+sn: Wood
+sn: Wood
+sn: Wright
+telephoneNumber: +6503522017
+telephoneNumber: +6503522060
+telephoneNumber: +6503522112
+telephoneNumber: +6503522120
+telephoneNumber: +6503522136
+telephoneNumber: +6503522188
+telephoneNumber: +6503522290
+telephoneNumber: +6503522366
+telephoneNumber: +6503522430
+telephoneNumber: +6503522433
+telephoneNumber: +6503522490
+telephoneNumber: +6503522610
+telephoneNumber: +6503522669
+telephoneNumber: +6503522698
+telephoneNumber: +6503522712
+telephoneNumber: +6503522766
+telephoneNumber: +6503522831
+telephoneNumber: +6503522847
+telephoneNumber: +6503522868
+telephoneNumber: +6503522908
+telephoneNumber: +6503522943
+telephoneNumber: +6503522972
+telephoneNumber: +6503522974
+telephoneNumber: +6503522994
+telephoneNumber: +672201105
+telephoneNumber: +672201171
+telephoneNumber: +672201222
+telephoneNumber: +672201297
+telephoneNumber: +672201407
+telephoneNumber: +672201533
+telephoneNumber: +672201706
+telephoneNumber: +672201763
+telephoneNumber: +672201808
+telephoneNumber: +672201814
+telephoneNumber: +672201949
+telephoneNumber: +672208011
+telephoneNumber: +672208035
+telephoneNumber: +672208038
+telephoneNumber: +672208075
+telephoneNumber: +672208101
+telephoneNumber: +672208124
+telephoneNumber: +672208191
+telephoneNumber: +672208209
+telephoneNumber: +672208219
+telephoneNumber: +672208278
+telephoneNumber: +672208343
+telephoneNumber: +672208498
+telephoneNumber: +672208499
+telephoneNumber: +672208567
+telephoneNumber: +672208752
+telephoneNumber: +672208989
+telephoneNumber: +672209064
+telephoneNumber: +672209111
+telephoneNumber: +672209173
+telephoneNumber: +672209221
+telephoneNumber: +672209241
+telephoneNumber: +672209247
+telephoneNumber: +672209264
+telephoneNumber: +672209279
+telephoneNumber: +672209325
+telephoneNumber: +672209369
+telephoneNumber: +672209402
+telephoneNumber: +672209567
+telephoneNumber: +672209660
+telephoneNumber: +672209664
+telephoneNumber: +672209829
+telephoneNumber: +672209840
+telephoneNumber: +672209865
+telephoneNumber: +672209907
+telephoneNumber: +68620898013
+telephoneNumber: +68620898018
+telephoneNumber: +68620898027
+telephoneNumber: +68620898116
+telephoneNumber: +68620898126
+telephoneNumber: +68620898135
+telephoneNumber: +68620898142
+telephoneNumber: +68620898161
+telephoneNumber: +68620898211
+telephoneNumber: +68620898255
+telephoneNumber: +68620898257
+telephoneNumber: +68620898305
+telephoneNumber: +68620898397
+telephoneNumber: +68620898422
+telephoneNumber: +68620898510
+telephoneNumber: +68620898643
+telephoneNumber: +68620898652
+telephoneNumber: +68620898655
+telephoneNumber: +68620898675
+telephoneNumber: +68620898679
+telephoneNumber: +68620898685
+telephoneNumber: +68620898773
+telephoneNumber: +68620898805
+telephoneNumber: +68620898933
+telephoneNumber: +68620898984
