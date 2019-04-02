@@ -1,26 +1,25 @@
 mkdir unit1exercise2
 cd unit1exercise2
-
-sudo install -d -m 154 -o uucp -g tape anlaufst
-sudo install -d -m 031 -o lp -g mail anpflumst 
-sudo install -d -m 715 -o proxy -g proxy anpflumst/aufsinnte 
-sudo install -d -m 374 -o news -g proxy anpflumst/aufsinnte/aufwarfst 
-sudo install -d -m 612 -o news -g cdrom bekatzekeit 
-sudo install -d -m 145 -o lp -g voice bekatzekeit/angehkeit 
-sudo install -d -m 164 -o nobody -g proxy bekatzekeit/angehunden 
-sudo install -d -m 200 -o student -g mail bekatzekeit/betritttete 
-sudo install -d -m 104 -o mail -g mail bekatzekeit/angehkeit/auspflumer 
-sudo install -d -m 462 -o student -g proxy bekatzekeit/betritttete/angesteher 
-sudo install -d -m 327 -o games -g fax bekatzekeit/betritttete/verschmecken 
-sudo install -d -m 425 -o games -g fax bekatzekeit/angehunden/versinnkeit 
-sudo install -d -m 224 -o uucp -g uucp einkletten 
-sudo install -d -m 537 -o news -g audio zersitzheit 
-sudo install -d -m 232 -o nobody -g mail angerauchst 
-sudo install -d -m 540 -o uucp -g uucp angerauchst/angehalten 
-sudo install -d -m 352 -o games -g voice angerauchst/angehalten/angeraucher 
-sudo install -d -m 563 -o mail -g student angerauchst/angehalten/ausgetrauung 
-sudo install -d -m 121 -o uucp -g dip verrenner 
-sudo install -d -m 243 -o games -g student angehaltkeit 
-
+sudo install -d -m 014 -o mail -g fax angegehkeit
+sudo install -d -m 144 -o nobody -g floppy begehen 
+sudo install -d -m 047 -o mail -g tape begehen/berabarbkeit/ 
+sudo install -d -m 603 -o nobody -g fax begehen/berabarbkeit/ausgerabarbung/ 
+sudo install -d -m 406 -o lp -g floppy angekaess 
+sudo install -d -m 054 -o lp -g fax angekaess/zersprachen/
+sudo install -d -m 163 -o proxy -g voice angekaess/angesinnheit/
+sudo install -d -m 052 -o lp -g cdrom angekaess/angesinnheit/aufgelaufkeit/ 
+sudo install -d -m 057 -o mail -g news angekaess/angesinnheit/ausgekletttete/
+sudo install -d -m 425 -o lp -g dip angekaess/zersprachen/engehtete/
+sudo install -d -m 565 -o lp -g voice angekaess/angesinnheit/einrabarber/
+sudo install -d -m 217 -o lp -g voice bewitzs 
+sudo install -d -m 731 -o news -g mail bewitzs/auffahrse/ 
+sudo install -d -m 054 -o proxy -g tape bewitzs/auffahrse/ausgewarfkeit/
+sudo install -d -m 406 -o proxy -g dip zersetzkeit 
+sudo install -d -m 703 -o mail -g audio zersetzkeit/enkletts/ 
+sudo install -d -m 102 -o mail -g audio zersetzkeit/enkletts/gerabarbse/ 
+sudo install -d -m 212 -o student -g floppy aufgewitzheit
+sudo install -d -m 545 -o student -g student ausgehtest 
+sudo install -d -m 614 -o proxy -g proxy einhaltt 
 cd ..
+chmod 775 unit1exercise2
 sudo tar -zcvf unit1-solution2.tgz unit1exercise2
