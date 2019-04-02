@@ -1,24 +1,25 @@
 mkdir unit1exercise4
 cd unit1exercise4
-sudo install -d -m 2157 -o student -g fax bekatzetest
-sudo install -d -m 2341 -o student -g fax einkletttete
-sudo install -d -m 2247 -o student -g voice gerabarbst
-sudo install -d -m 2630 -o student -g tape angesitzte
-sudo install -d -m 001 -o student -g dip auskatzete
-sudo install -d -m 021 -o student -g mail auskatzete/aufstehen
-sudo install -d -m 2142 -o student -g audio auskatzete/aussetzs
-sudo install -d -m 173 -o student -g audio auskatzete/aussetzs/einlaufung
-sudo install -d -m 2335 -o student -g fax auskatzete/aufstehen/auswarfkeit
-sudo install -d -m 071 -o student -g tape auskatzete/aufstehen/ensetzkeit
-sudo install -d -m 2047 -o student -g mail ausgehaltse
-sudo install -d -m 776 -o student -g voice ausgehaltse/zersitzen
-sudo install -d -m 172 -o student -g news ausgehaltse/zersitzen/gehundtest
-sudo install -d -m 2026 -o student -g tape ausgehaltse/zersitzen/ausgesinns
-sudo install -d -m 726 -o student -g cdrom ausgehundtest
-sudo install -d -m 437 -o student -g news ausgehundtest/eingehtete
-sudo install -d -m 624 -o student -g proxy ausgehundtest/eingehtete/enklettheit
-sudo install -d -m 2141 -o student -g cdrom angefahrung
-sudo install -d -m 531 -o student -g tape angefahrung/gerenntete
-sudo install -d -m 2556 -o student -g tape angefahrung/gerenntete/enhundtest
+sudo install -d -m 365 -o student -g proxy aufgetrittheit/
+sudo install -d -m 741 -o student -g uucp aufgetrittheit/verkaestest/
+sudo install -d -m 2145 -o student -g tape aufgetrittheit/anschmeckheit/
+sudo install -d -m 374 -o student -g voice aufgetrittheit/geraucht/
+sudo install -d -m 532 -o student -g mail ankletter
+sudo install -d -m 2721 -o student -g proxy ankletter/gewarfen/
+sudo install -d -m 341 -o student -g dip aufsinnst
+sudo install -d -m 037 -o student -g mail aufsinnst/aufgelaufung/
+sudo install -d -m 045 -o student -g audio angegehtete/
+sudo install -d -m 2051 -o student -g mail ankletter/gewarfen/einkrautest/
+sudo install -d -m 2120 -o student -g voice aufsinnst/aufgelaufung/zerkrauung/
+sudo install -d -m 146 -o student -g cdrom aufgetrittheit/verkaestest/ankaeskeit/
+sudo install -d -m 222 -o student -g dip gesetzkeit/
+sudo install -d -m 240 -o student -g floppy zerrennkeit
+sudo install -d -m 257 -o student -g floppy ensitztete
+sudo install -d -m 2454 -o student -g dip ankletter/gewarfen/verhalts/
+sudo install -d -m 2465 -o student -g student aufgetrittheit/verkaestest/gelaufte/
+sudo install -d -m 470 -o student -g news aufgetrittheit/verkaestest/einrennse/
+sudo install -d -m 2647 -o student -g audio aufgetrittheit/verkaestest/zerhunds/
+sudo install -d -m 2770 -o student -g uucp berennt
 cd ..
+chmod 775 unit1exercise4
 sudo tar -zcvf unit1-solution4.tgz unit1exercise4
