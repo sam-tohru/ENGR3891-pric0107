@@ -1,0 +1,18 @@
+
+
+
+
+
+
+	hwaddress 19:E9:F5:14:6F:8A
+	hwaddress 1D:E7:E2:EF:06:69
+	hwaddress 7E:9B:79:0E:C3:93
+iface jam1 inet
+iface moths0 inet
+iface moths2 inet
+iface ruins1 inet
+iface wlan0 inet
+iface wlan2 inet inherits ruins1
+	mtu 1605
+	mtu 3598
+	mtu 7581

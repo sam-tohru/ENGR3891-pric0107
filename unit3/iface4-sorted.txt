@@ -1,0 +1,38 @@
+
+
+
+
+
+
+
+
+
+
+
+
+	address 102.168.82.255/28
+	address 114.101.248.182/18
+	address 127.82.243.150/17
+	address 80.145.139.101/19
+	hwaddress 35:D8:E6:7C:AC:E0
+	hwaddress 46:B4:37:8A:91:D5
+	hwaddress 4A:7E:DE:5E:62:0F
+	hwaddress D3:37:5F:02:44:DD
+	hwaddress EB:61:51:CB:A7:7F
+iface 102.168.82.255 inet static inherits ruins2
+iface 114.101.248.182 inet static inherits ruins0
+iface 127.82.243.150 inet static inherits wealth3
+iface 80.145.139.101 inet static inherits wealth3
+iface eth0 inet inherits ruins0
+iface eth2 inet
+iface ruins0 inet
+iface ruins1 inet
+iface ruins2 inet
+iface wealth3 inet
+iface wealth4 inet
+iface wlan5 inet inherits wealth3
+	mtu 1189
+	mtu 461
+	mtu 4966
+	mtu 741
+	mtu 8416

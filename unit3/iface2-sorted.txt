@@ -1,0 +1,39 @@
+
+
+
+
+
+
+
+
+
+
+
+
+	address 14.34.193.237/24
+	address 26.189.120.66/26
+	address 3.97.125.131/26
+	address 44.147.144.30/6
+	address 82.198.157.100/27
+	hwaddress 1B:B7:0A:5B:4C:80
+	hwaddress 2D:50:40:BE:7D:EC
+	hwaddress B4:FD:3A:FD:40:98
+	hwaddress C7:9D:D3:5D:0A:6D
+	hwaddress E8:8E:2B:65:7B:BD
+iface 14.34.193.237 inet static inherits castle0
+iface 26.189.120.66 inet static
+iface 3.97.125.131 inet static
+iface 44.147.144.30 inet static inherits castle4
+iface 82.198.157.100 inet static
+iface castle0 inet
+iface castle4 inet
+iface eth5 inet
+iface ftdi3 inet
+iface ruins1 inet
+iface ruins3 inet
+iface wealth2 inet
+	mtu 1905
+	mtu 5313
+	mtu 5595
+	mtu 5880
+	mtu 8717

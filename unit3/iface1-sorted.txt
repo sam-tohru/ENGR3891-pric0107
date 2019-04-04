@@ -1,0 +1,28 @@
+
+
+
+
+
+
+
+
+	address 15.16.98.214/5
+	address 72.223.137.150/12
+	hwaddress 14:77:75:09:EA:F2
+	hwaddress 2C:AC:D3:CB:DA:0C
+	hwaddress 91:35:02:97:70:BE
+	hwaddress A6:3A:BE:43:9E:2E
+	hwaddress BC:60:0F:64:20:14
+iface 15.16.98.214 inet static inherits castle4
+iface 72.223.137.150 inet static inherits ruins3
+iface castle4 inet
+iface jam1 inet
+iface ruins0 inet
+iface ruins3 inet
+iface wealth1 inet
+iface wealth2 inet
+	mtu 1126
+	mtu 1988
+	mtu 4725
+	mtu 6564
+	mtu 988
