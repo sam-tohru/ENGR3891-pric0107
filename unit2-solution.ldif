@@ -1,0 +1,614 @@
+## Organisations ##
+dn: dc=Conglomerated Exports,dc=nodomain
+dc: Conglomerated Exports
+objectClass: dcObject
+objectClass: organization
+o: Conglomerated Exports.
+
+dn: dc=Universal Resources,dc=nodomain
+dc: Universal Resources
+objectClass: dcObject
+objectClass: organization
+o: Universal Resources.
+
+dn: dc=Trans-Urannic Outsourcing,dc=nodomain
+dc: Trans-Urannic Outsourcing
+objectClass: dcObject
+objectClass: organization
+o: Trans-Urannic Outsourcing.
+
+dn: dc=Trans-Urannic Developments,dc=nodomain
+dc: Trans-Urannic Developments
+objectClass: dcObject
+objectClass: organization
+o: Trans-Urannic Developments.
+
+dn: dc=Universal Outsourcing,dc=nodomain
+dc: Universal Outsourcing
+objectClass: dcObject
+objectClass: organization
+o: Universal Outsourcing.
+
+## Departments ##
+# First Level #
+dn: ou=Pest Control, dc=Conglomerated Exports,dc=nodomain
+ou: Pest Control
+objectclass: organizationalunit
+
+dn: ou=Interplanetary exploration, dc=Universal Resources,dc=nodomain
+ou: Interplanetary exploration
+objectclass: organizationalunit
+
+dn: ou=Interplanetary exploration, dc=Trans-Urannic Outsourcing,dc=nodomain
+ou: Interplanetary exploration
+objectclass: organizationalunit
+
+dn: ou=Pest Control, dc=Trans-Urannic Developments,dc=nodomain
+ou: Pest Control
+objectclass: organizationalunit
+
+dn: ou=Excessive hierarchy, dc=Universal Outsourcing,dc=nodomain
+ou: Excessive hierarchy
+objectclass: organizationalunit
+
+# Second Level #
+dn: ou=Diabolical Schemes, ou=Pest Control,dc=Conglomerated Exports,dc=nodomain
+ou: Diabolical Schemes
+objectclass: organizationalunit
+
+dn: ou=Environmental protection, ou=Interplanetary exploration,dc=Universal Resources,dc=nodomain
+ou: Environmental protection
+objectclass: organizationalunit
+
+dn: ou=Inhuman resources, ou=Interplanetary exploration,dc=Trans-Urannic Outsourcing,dc=nodomain
+ou: Inhuman resources
+objectclass: organizationalunit
+
+dn: ou=Environmental exploitation, ou=Interplanetary exploration,dc=Trans-Urannic Outsourcing,dc=nodomain
+ou: Environmental exploitation
+objectclass: organizationalunit
+
+dn: ou=Environmental protection, ou=Interplanetary exploration,dc=Trans-Urannic Outsourcing,dc=nodomain
+ou: Environmental protection
+objectclass: organizationalunit
+
+dn: ou=Manufacture, ou=Pest Control,dc=Trans-Urannic Developments,dc=nodomain
+ou: Manufacture
+objectclass: organizationalunit
+
+dn: ou=Interior decoration,ou=Manufacture,ou=Pest control,dc=Trans-Urannic Developments,dc=nodomain
+ou: Interior decoration
+objectclass: organizationalunit
+
+dn: ou=Marketing, ou=Excessive hierarchy,dc=Universal Outsourcing,dc=nodomain
+ou: Marketing
+objectclass: organizationalunit
+
+## People ##
+dn: cn=Fay Cooper,ou=Interplanetary exploration,dc=Trans-Urannic Outsourcing,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Fay Cooper
+sn: Cooper
+mail: fay3c6@transurannicdevelopments.com.aq
+telephoneNumber: +672116452
+manager: cn=Fay Lee,ou=Environmental exploitation,ou=Interplanetary exploration,dc=Trans-Urannic Outsourcing,dc=nodomain
+
+dn: cn=Fay Lee,ou=Environmental exploitation,ou=Interplanetary exploration,dc=Trans-Urannic Outsourcing,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Fay Lee
+sn: Lee
+mail: flee@universalresources.com.nf
+telephoneNumber: +672208962
+telephoneNumber: +672208070
+telephoneNumber: +672208979
+manager: cn=Mark Taylor,ou=Inhuman resources,ou=Interplanetary exploration,dc=Trans-Urannic Outsourcing,dc=nodomain
+
+
+dn: cn=Fay Wood,ou=Interior decoration,ou=Manufacture,ou=Pest control,dc=Trans-Urannic Developments,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Fay Wood
+sn: Wood
+mail: fw45@transurannicoutsourcing.com.au
+telephoneNumber: +61329517292
+manager: cn=Freda Martin,ou=Manufacture,ou=Pest control,dc=Trans-Urannic Developments,dc=nodomain
+
+
+dn: cn=Fiona Cooper,ou=Environmental exploitation,ou=Interplanetary exploration,dc=Trans-Urannic Outsourcing,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Fiona Cooper
+sn: Cooper
+mail: fc19@conglomeratedexports.com.au
+#telephoneNumber:
+manager: cn=Mark Taylor,ou=Inhuman resources,ou=Interplanetary exploration,dc=Trans-Urannic Outsourcing,dc=nodomain
+
+
+dn: cn=Fiona King,ou=Environmental protection,ou=Interplanetary exploration,dc=Universal Resources,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Fiona King
+sn: King
+mail: fk22@universalresources.com.nf
+telephoneNumber: +672208830
+manager: cn=Mitchell White,ou=Interplanetary exploration,dc=Universal Resources,dc=nodomain
+
+
+dn: cn=Fiona Martin,ou=Excessive hierarchy,dc=Universal Outsourcing,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Fiona Martin
+sn: Martin
+mail: fiona5m6@transurannicoutsourcing.com.au
+telephoneNumber: +61329517202 
+telephoneNumber: +61329517511
+telephoneNumber: +61329517922
+telephoneNumber: +61329517551
+manager: cn=Fran Jones,ou=Marketing,ou=Excessive hierarchy,dc=Universal Outsourcing,dc=nodomain
+
+
+dn: cn=Fiona Taylor,ou=Interior decoration,ou=Manufacture,ou=Pest control,dc=Trans-Urannic Developments,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Fiona Taylor
+sn: Taylor
+mail: ft16@transurannicoutsourcing.com.au
+telephoneNumber: +61329517445
+telephoneNumber: +61329517140
+telephoneNumber: +61329517124
+manager: cn=Fleur Evans,ou=Manufacture,ou=Pest control,dc=Trans-Urannic Developments,dc=nodomain
+
+
+dn: cn=Fiona Walker,ou=Diabolical schemes,ou=Pest control,dc=Conglomerated Exports,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Fiona Walker
+sn: Walker
+mail: fiona.walker@transurannicdevelopments.com.aq
+telephoneNumber: +672116200
+telephoneNumber: +672116114
+telephoneNumber: +672116751
+manager: cn=Mario King,ou=Pest control,dc=Conglomerated Exports,dc=nodomain
+
+
+dn: cn=Fleur Evans,ou=Manufacture,ou=Pest control,dc=Trans-Urannic Developments,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Fleur Evans
+sn: Evans
+mail: fevans@transurannicdevelopments.com.aq
+#telephoneNumber:
+manager: cn=Mitchell Jones,ou=Manufacture,ou=Pest control,dc=Trans-Urannic Developments,dc=nodomain
+
+dn: cn=Fleur Green,ou=Marketing,ou=Excessive hierarchy,dc=Universal Outsourcing,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Fleur Green
+sn: Green
+mail: fleur5g5@conglomeratedexports.com.au
+telephoneNumber: +61892561649
+telephoneNumber: +61892561151
+telephoneNumber: +61892561713
+manager: cn=Freya Wright,ou=Marketing,ou=Excessive hierarchy,dc=Universal Outsourcing,dc=nodomain
+
+
+dn: cn=Fleur Wilson,ou=Pest control,dc=Trans-Urannic Developments,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Fleur Wilson
+sn: Wilson
+mail: fleur5w6@transurannicdevelopments.com.aq
+telephoneNumber: +672116990
+telephoneNumber: +672116388
+telephoneNumber: +672116047
+manager: cn=Mitchell Jones,ou=Manufacture,ou=Pest control,dc=Trans-Urannic Developments,dc=nodomain
+
+
+dn: cn=Flora Jackson,ou=Interplanetary exploration,dc=Trans-Urannic Outsourcing,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Flora Jackson
+sn: Jackson
+mail: fj34@transurannicoutsourcing.com.au
+telephoneNumber: +61329517447
+telephoneNumber: +61329517570
+telephoneNumber: +61329517427
+telephoneNumber: +61329517908
+manager: cn=Mark Taylor,ou=Inhuman resources,ou=Interplanetary exploration,dc=Trans-Urannic Outsourcing,dc=nodomain
+
+
+dn: cn=Francesca Jones,ou=Diabolical schemes,ou=Pest control,dc=Conglomerated Exports,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Francesca Jones
+sn: Jones
+mail: francesca.jones@conglomeratedexports.com.au
+telephoneNumber: +61892561893
+telephoneNumber: +61892561139
+
+
+dn: cn=Frances Green,ou=Diabolical schemes,ou=Pest control,dc=Conglomerated Exports,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Frances Green
+sn: Green
+mail: fgreen@universaloutsourcing.com.ki
+telephoneNumber: +68634388500
+telephoneNumber: +68634388850
+telephoneNumber: +68634388267
+telephoneNumber: +68634388917
+manager: cn=Fiona Walker,ou=Diabolical schemes,ou=Pest control,dc=Conglomerated Exports,dc=nodomain
+
+
+dn: cn=Fran Jones,ou=Marketing,ou=Excessive hierarchy,dc=Universal Outsourcing,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Fran Jones
+sn: Jones
+mail: fran4j5@transurannicdevelopments.com.aq
+telephoneNumber: +672116137
+
+
+dn: cn=Fran King,ou=Environmental protection,ou=Interplanetary exploration,dc=Universal Resources,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Fran King
+sn: King
+mail: fk2@universalresources.com.nf
+telephoneNumber: +672208211
+telephoneNumber: +672208934
+telephoneNumber: +672208792
+telephoneNumber: +672208845
+manager: cn=Freya Thomas,ou=Environmental protection,ou=Interplanetary exploration,dc=Universal Resources,dc=nodomain 
+
+dn: cn=Fran Walker,ou=Interplanetary exploration,dc=Universal Resources,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Fran Walker
+sn: Walker
+mail: fran4w6@transurannicdevelopments.com.aq
+telephoneNumber: +672116360
+telephoneNumber: +672116693
+telephoneNumber: +672116048
+manager: cn=Matthew Thompson,ou=Interplanetary exploration,dc=Universal Resources,dc=nodomain
+
+
+dn: cn=Freda Davies,ou=Marketing,ou=Excessive hierarchy,dc=Universal Outsourcing,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Freda Davies
+sn: Davies
+mail: freda5d6@transurannicoutsourcing.com.au
+#telephoneNumber:
+manager: cn=Fran Jones,ou=Marketing,ou=Excessive hierarchy,dc=Universal Outsourcing,dc=nodomain
+
+
+dn: cn=Freda Martin,ou=Manufacture,ou=Pest control,dc=Trans-Urannic Developments,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Freda Martin
+sn: Martin
+mail: freda.martin@universalresources.com.nf
+telephoneNumber: +672208091
+telephoneNumber: +672208606
+telephoneNumber: +672208916
+manager: cn=Mitchell Jones,ou=Manufacture,ou=Pest control,dc=Trans-Urannic Developments,dc=nodomain
+
+
+dn: cn=Freya Thomas,ou=Environmental protection,ou=Interplanetary exploration,dc=Universal Resources,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Freya Thomas
+sn: Thomas
+mail: freya5t6@transurannicoutsourcing.com.au
+telephoneNumber: +61329517980
+
+
+dn: cn=Freya Wright,ou=Marketing,ou=Excessive hierarchy,dc=Universal Outsourcing,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Freya Wright
+sn: Wright
+mail: fw30@universaloutsourcing.com.ki
+telephoneNumber: +68634388718 
+telephoneNumber: +68634388161
+telephoneNumber: +68634388754
+telephoneNumber: +68634388141
+manager: cn=Fiona Martin,ou=Excessive hierarchy,dc=Universal Outsourcing,dc=nodomain
+
+
+dn: cn=Magnus Evans,ou=Excessive hierarchy,dc=Universal Outsourcing,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Magnus Evans
+sn: Evans
+mail: mevans@conglomeratedexports.com.au
+#telephoneNumber: 
+manager: cn=Fleur Green,ou=Marketing,ou=Excessive hierarchy,dc=Universal Outsourcing,dc=nodomain
+
+
+dn: cn=Magnus Jackson,ou=Interplanetary exploration,dc=Trans-Urannic Outsourcing,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Magnus Jackson
+sn: Jackson
+mail: magnus6j7@transurannicoutsourcing.com.au
+telephoneNumber: +61329517561 
+telephoneNumber: +61329517959 
+telephoneNumber: +61329517548
+telephoneNumber: +61329517414
+manager: cn=Murphey Jones,ou=Environmental exploitation,ou=Interplanetary exploration,dc=Trans-Urannic Outsourcing,dc=nodomain
+
+
+dn: cn=Magnus Smith,ou=Excessive hierarchy,dc=Universal Outsourcing,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Magnus Smith
+sn: Smith
+mail: magnus6s5@transurannicoutsourcing.com.au
+telephoneNumber: +61329517120
+manager: cn=Fiona Martin,ou=Excessive hierarchy,dc=Universal Outsourcing,dc=nodomain
+
+
+dn: cn=Magnus Thomas,ou=Environmental protection,ou=Interplanetary exploration,dc=Universal Resources,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Magnus Thomas
+sn: Thomas
+mail: mt20@universalresources.com.nf
+telephoneNumber: +672208238
+telephoneNumber: +672208875
+telephoneNumber: +672208222
+manager: cn=Fran King,ou=Environmental protection,ou=Interplanetary exploration,dc=Universal Resources,dc=nodomain
+
+
+dn: cn=Magnus Williams,ou=Inhuman resources,ou=Interplanetary exploration,dc=Trans-Urannic Outsourcing,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Magnus Williams
+sn: Williams
+mail: mw37@universaloutsourcing.com.ki
+telephoneNumber: +68634388678
+manager: cn=Fay Lee,ou=Environmental exploitation,ou=Interplanetary exploration,dc=Trans-Urannic Outsourcing,dc=nodomain
+
+
+dn: cn=Mario King,ou=Pest control,dc=Conglomerated Exports,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Mario King
+sn: King
+mail: mking@universaloutsourcing.com.ki
+telephoneNumber: +68634388448
+manager: cn=Francesca Jones,ou=Diabolical schemes,ou=Pest control,dc=Conglomerated Exports,dc=nodomain
+
+
+dn: cn=Mark Brown,ou=Environmental exploitation,ou=Interplanetary exploration,dc=Trans-Urannic Outsourcing,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Magnus Smith
+sn: Smith
+mail: mark4b5@universaloutsourcing.com.ki
+telephoneNumber: +68634388078
+telephoneNumber: +68634388729
+manager: cn=Mark Taylor,ou=Inhuman resources,ou=Interplanetary exploration,dc=Trans-Urannic Outsourcing,dc=nodomain
+
+
+dn: cn=Mark Taylor,ou=Inhuman resources,ou=Interplanetary exploration,dc=Trans-Urannic Outsourcing,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Mark Taylor
+sn: Taylor
+mail: mtaylor@universalresources.com.nf
+telephoneNumber: +672208520
+manager: cn=Murphey Jones,ou=Environmental exploitation,ou=Interplanetary exploration,dc=Trans-Urannic Outsourcing,dc=nodomain
+
+
+dn: cn=Mark Thomas,ou=Marketing,ou=Excessive hierarchy,dc=Universal Outsourcing,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Mark Thomas
+sn: Thomas
+mail: mark4t6@conglomeratedexports.com.au
+telephoneNumber: +61892561460
+telephoneNumber: +61892561050
+telephoneNumber: +61892561548
+telephoneNumber: +61892561660
+manager: cn=Matthew Clarke,ou=Marketing,ou=Excessive hierarchy,dc=Universal Outsourcing,dc=nodomain
+
+
+dn: cn=Mark Thompson,ou=Environmental protection,ou=Interplanetary exploration,dc=Trans-Urannic Outsourcing,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Mark Thompson
+sn: Thompson
+mail: mt17@conglomeratedexports.com.au
+telephoneNumber: +61892561412
+manager: cn=Martin Jackson,ou=Interplanetary exploration,dc=Trans-Urannic 
+
+
+dn: cn=Mark Williams,ou=Manufacture,ou=Pest control,dc=Trans-Urannic Developments,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Mark Williams
+sn: Williams
+mail: mark.williams@transurannicoutsourcing.com.au
+telephoneNumber: +61329517190
+telephoneNumber: +61329517197
+telephoneNumber: +61329517727
+
+
+dn: cn=Mark Wood,ou=Interior decoration,ou=Manufacture,ou=Pest control,dc=Trans-Urannic Developments,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Mark Wood
+sn: Wood
+mail: mw13@transurannicdevelopments.com.aq
+#telephoneNumber:
+manager: cn=Freda Martin,ou=Manufacture,ou=Pest control,dc=Trans-Urannic Developments,dc=nodomain
+
+
+dn: cn=Martin Harris,ou=Inhuman resources,ou=Interplanetary exploration,dc=Trans-Urannic Outsourcing,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Martin Harris
+sn: Harris
+mail: mh40@transurannicdevelopments.com.aq
+telephoneNumber: +672116081
+manager: cn=Mark Taylor,ou=Inhuman resources,ou=Interplanetary exploration,dc=Trans-Urannic Outsourcing,dc=nodomain
+
+
+dn: cn=Martin Jackson,ou=Interplanetary exploration,dc=Trans-Urannic Outsourcing,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Martin Jackson
+sn: Jackson
+mail: martin.jackson@transurannicoutsourcing.com.au
+telephoneNumber: +61329517615
+manager: cn=Murphey Jones,ou=Environmental exploitation,ou=Interplanetary exploration,dc=Trans-Urannic Outsourcing,dc=nodomain 
+
+
+dn: cn=Martin Johnson,ou=Inhuman resources,ou=Interplanetary exploration,dc=Trans-Urannic Outsourcing,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Martin Johnson
+sn: Johnson
+mail: mjohnson@universaloutsourcing.com.ki
+#telephoneNumber:
+manager: cn=Murphey Jones,ou=Environmental exploitation,ou=Interplanetary exploration,dc=Trans-Urannic Outsourcing,dc=nodomain 
+
+dn: cn=Martin Lee,ou=Pest control,dc=Conglomerated Exports,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Martin Lee
+sn: Lee
+mail: martin.lee@conglomeratedexports.com.au
+#telephoneNumber:
+manager: cn=Francesca Jones,ou=Diabolical schemes,ou=Pest control,dc=Conglomerated Exports,dc=nodomain
+
+
+dn: cn=Matthew Clarke,ou=Marketing,ou=Excessive hierarchy,dc=Universal Outsourcing,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Matthew Clarke
+sn: Clarke
+mail: matthew.clarke@transurannicdevelopments.com.aq
+telephoneNumber: +672116436
+telephoneNumber: +672116805
+manager: cn=Freda Davies,ou=Marketing,ou=Excessive hierarchy,dc=Universal Outsourcing,dc=nodomain
+
+
+dn: cn=Matthew Thompson,ou=Interplanetary exploration,dc=Universal Resources,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Matthew Thompson
+sn: Thompson
+mail: mt27@universalresources.com.nf
+telephoneNumber: +672208947
+telephoneNumber: +672208622
+telephoneNumber: +672208194
+telephoneNumber: +672208934
+manager: cn=Fran King,ou=Environmental protection,ou=Interplanetary exploration,dc=Universal Resources,dc=nodomain
+
+
+dn: cn=Micah White,ou=Manufacture,ou=Pest control,dc=Trans-Urannic Developments,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Micah White
+sn: White
+mail: micah.white@universalresources.com.nf
+#telephoneNumber:
+manager: cn=Fleur Evans,ou=Manufacture,ou=Pest control,dc=Trans-Urannic Developments,dc=nodomain 
+
+dn: cn=Mitchell Jones,ou=Manufacture,ou=Pest control,dc=Trans-Urannic Developments,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Mitchell Jones
+sn: Jones
+mail: mitchell.jones@transurannicoutsourcing.com.au
+telephoneNumber: +61329517964
+telephoneNumber: +61329517107
+telephoneNumber: +61329517036
+telephoneNumber: +61329517179
+manager: cn=Mark Williams,ou=Manufacture,ou=Pest control,dc=Trans-Urannic Developments,dc=nodomain
+
+dn: cn=Mitchell Lewis,ou=Pest control,dc=Conglomerated Exports,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Mitchell Lewis
+sn: Lewis
+mail: mlewis@conglomeratedexports.com.au
+telephoneNumber: +61892561071 
+telephoneNumber: +61892561053 
+telephoneNumber: +61892561910
+manager: cn=Fiona Walker,ou=Diabolical schemes,ou=Pest control,dc=Conglomerated Exports,dc=nodomain
+
+
+dn: cn=Mitchell White,ou=Interplanetary exploration,dc=Universal Resources,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Mitchell White
+sn: White
+mail: mwhite@conglomeratedexports.com.au
+telephoneNumber: +61892561189 
+telephoneNumber: +61892561942
+telephoneNumber: +61892561206
+manager: cn=Freya Thomas,ou=Environmental protection,ou=Interplanetary exploration,dc=Universal Resources,dc=nodomain
+
+
+dn: cn=Morgan Wilson,ou=Interior decoration,ou=Manufacture,ou=Pest control,dc=Trans-Urannic Developments,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Morgan Wilson
+sn: Wilson
+mail: morgan6w6@universaloutsourcing.com.ki
+telephoneNumber: +68634388359
+telephoneNumber: +68634388226
+telephoneNumber: +68634388335
+manager: cn=Murphey Roberts,ou=Interior decoration,ou=Manufacture,ou=Pest control,dc=Trans-Urannic Developments,dc=nodomain
+
+
+dn: cn=Murphey Clarke,ou=Environmental exploitation,ou=Interplanetary exploration,dc=Trans-Urannic Outsourcing,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Murphey Clarke
+sn: Clarke
+mail: murphey7c6@universaloutsourcing.com.ki
+telephoneNumber: +68634388120
+telephoneNumber: +68634388251
+telephoneNumber: +68634388304
+manager: cn=Fay Cooper,ou=Interplanetary exploration,dc=Trans-Urannic Outsourcing,dc=nodomain
+
+
+dn: cn=Murphey Jones,ou=Environmental exploitation,ou=Interplanetary exploration,dc=Trans-Urannic Outsourcing,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Murphey Jones
+sn: Jones
+mail: mjones@universalresources.com.nf
+telephoneNumber: +672208029
+telephoneNumber: +672208135
+
+
+dn: cn=Murphey Roberts,ou=Interior decoration,ou=Manufacture,ou=Pest control,dc=Trans-Urannic Developments,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Murphey Roberts
+sn: Roberts
+mail: mroberts@conglomeratedexports.com.au
+telephoneNumber: +61892561801
+telephoneNumber: +61892561207
+telephoneNumber: +61892561783
+telephoneNumber: +61892561462
+manager: cn=Mark Wood,ou=Interior decoration,ou=Manufacture,ou=Pest control,dc=Trans-Urannic Developments,dc=nodomain
+
+
+dn: cn=Murray Williams,ou=Pest control,dc=Trans-Urannic Developments,dc=nodomain
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Murray Williams
+sn: Williams
+mail: murray.williams@transurannicdevelopments.com.aq
+telephoneNumber: +672116081
+manager: cn=Mitchell Jones,ou=Manufacture,ou=Pest control,dc=Trans-Urannic Developments,dc=nodomain
