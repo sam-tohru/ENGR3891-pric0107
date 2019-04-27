@@ -1,0 +1,17 @@
+iface moths0 inet
+	mtu 7581
+	hwaddress 19:E9:F5:14:6F:8A
+
+iface ruins1 inet
+	mtu 3598
+	hwaddress 1D:E7:E2:EF:06:69
+
+iface moths2 inet
+	mtu 1605
+	hwaddress 7E:9B:79:0E:C3:93
+
+iface wlan0 inet
+
+iface jam1 inet
+
+iface wlan2 inet inherits ruins1

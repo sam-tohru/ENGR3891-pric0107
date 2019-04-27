@@ -1,0 +1,37 @@
+iface ruins0 inet
+	mtu 4966
+	hwaddress D3:37:5F:02:44:DD
+
+iface ruins1 inet
+	mtu 1189
+	hwaddress EB:61:51:CB:A7:7F
+
+iface ruins2 inet
+	mtu 741
+	hwaddress 35:D8:E6:7C:AC:E0
+
+iface wealth3 inet
+	mtu 8416
+	hwaddress 4A:7E:DE:5E:62:0F
+
+iface wealth4 inet
+	mtu 461
+	hwaddress 46:B4:37:8A:91:D5
+
+iface eth0 inet inherits ruins0
+
+iface 80.145.139.101 inet static inherits wealth3
+	address 80.145.139.101/19
+
+iface eth2 inet
+
+iface 102.168.82.255 inet static inherits ruins2
+	address 102.168.82.255/28
+
+iface 127.82.243.150 inet static inherits wealth3
+	address 127.82.243.150/17
+
+iface wlan5 inet inherits wealth3
+
+iface 114.101.248.182 inet static inherits ruins0
+	address 114.101.248.182/18
