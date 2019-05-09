@@ -9,8 +9,8 @@
 	hwaddress F0:EC:F1:33:BC:D8
 iface ftdi1 inet static inherits ruins0
 iface ftdi2 inet static
-iface jam0 inet
-iface ruins0 inet
-iface ruins1 inet
+iface jam0 inet dhcp
+iface ruins0 inet static
+iface ruins1 inet static
 	mtu 5896
 	mtu 7242
