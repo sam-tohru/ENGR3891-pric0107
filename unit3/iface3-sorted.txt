@@ -12,7 +12,7 @@ iface moths0 inet static
 iface moths2 inet static
 iface ruins1 inet static
 iface wlan0 inet dhcp
-iface wlan2 inet inherits ruins1 dhcp
+iface wlan2 inet dhcp inherits ruins1
 	mtu 1605
 	mtu 3598
 	mtu 7581

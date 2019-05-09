@@ -19,7 +19,7 @@
 	hwaddress 4A:7E:DE:5E:62:0F
 	hwaddress D3:37:5F:02:44:DD
 	hwaddress EB:61:51:CB:A7:7F
-iface eth0 inet inherits ruins0 dhcp
+iface eth0 inet dhcp inherits ruins0
 iface eth1 inet static inherits wealth3
 iface eth2 inet dhcp
 iface ftdi3 inet static inherits ruins2
@@ -30,7 +30,7 @@ iface ruins1 inet static
 iface ruins2 inet static
 iface wealth3 inet static
 iface wealth4 inet static
-iface wlan5 inet inherits wealth3 dhcp
+iface wlan5 inet dhcp inherits wealth3
 	mtu 1189
 	mtu 461
 	mtu 4966
