@@ -13,9 +13,9 @@
 	hwaddress 91:35:02:97:70:BE
 	hwaddress A6:3A:BE:43:9E:2E
 	hwaddress BC:60:0F:64:20:14
-iface 15.16.98.214 inet static inherits castle4
-iface 72.223.137.150 inet static inherits ruins3
 iface castle4 inet
+iface eth2 inet static inherits castle4
+iface ftdi0 inet static inherits ruins3
 iface jam1 inet
 iface ruins0 inet
 iface ruins3 inet

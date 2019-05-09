@@ -20,18 +20,18 @@
 	hwaddress B4:FD:3A:FD:40:98
 	hwaddress C7:9D:D3:5D:0A:6D
 	hwaddress E8:8E:2B:65:7B:BD
-iface 14.34.193.237 inet static inherits castle0
-iface 26.189.120.66 inet static
-iface 3.97.125.131 inet static
-iface 44.147.144.30 inet static inherits castle4
-iface 82.198.157.100 inet static
 iface castle0 inet
 iface castle4 inet
+iface eth0 inet static
+iface eth4 inet static inherits castle4
 iface eth5 inet
+iface ftdi2 inet static
 iface ftdi3 inet
+iface jam1 inet static inherits castle0
 iface ruins1 inet
 iface ruins3 inet
 iface wealth2 inet
+iface wlan6 inet static
 	mtu 1905
 	mtu 5313
 	mtu 5595

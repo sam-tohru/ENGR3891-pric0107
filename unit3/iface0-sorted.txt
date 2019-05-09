@@ -7,8 +7,8 @@
 	address 39.243.129.209/28
 	hwaddress 70:F5:21:8E:28:4F
 	hwaddress F0:EC:F1:33:BC:D8
-iface 109.14.104.115 inet static
-iface 39.243.129.209 inet static inherits ruins0
+iface ftdi1 inet static inherits ruins0
+iface ftdi2 inet static
 iface jam0 inet
 iface ruins0 inet
 iface ruins1 inet
