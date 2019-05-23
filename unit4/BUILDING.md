@@ -15,15 +15,30 @@ Was built on Ubuntu 18.04.2 LTS x86_64
 
 ### Other Software
 1. Vivado
-- Download Vivado HLx 2018.3: WebPACK and Editions - Linux Self Extracting Web Installer
-- Via: https://www.xilinx.com/support/download.html
-- Run the bin file and install -> IMPORTANT NOTE: Vivado sets install destination automatically at /tools, change this to /opt (as mega65-core will only check for  vivado in this location) 
+	- Download Vivado HLx 2018.3: WebPACK and Editions - Linux Self Extracting Web Installer
+	- Via: https://www.xilinx.com/support/download.html
+	- Run the bin file and install -> **IMPORTANT NOTE:** Vivado sets install destination automatically at /tools, change this to /opt (as mega65-core will only check for  vivado in this location) 
 
-### Git Repositories
+### Git Repositories - Installed via: git clone HTTP-Addr
 1. Mega65-core: https://www.github.com/MEGA65/mega65-core
 
 2. fpgajtag: https://www.github.com/MEGA65/mega65-core
+*Follow the code below to make*
 	- cd fpgajtag
 	- make
+
+**NOTE:** this worked for me, however the mega65 documentation states if make does not work for fpgajtag install the package - libusb-1.0-0-dev and try again or follow below
+	- sudo cp src.fpgajtag /usr/local/bin
+	- cd ..
+	- cd mega65-core
+
+If installed the below should get a meaningful response
+	- fpgajtag --version
+
+### Making mega65-core
+```bash
+cd ~/mega65-core
+make
+```
 
 
