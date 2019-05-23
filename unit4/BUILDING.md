@@ -49,32 +49,31 @@ cd ~/mega65-core
 ```bash
 make simulate
 ```
-**_Compiled Successfully for me_**
+_Compiled Successfully for me_
 
 **src/tools/monitor_load**
 ```bash
 make src/tools/monitor_load
 ```
-**_Compiled Successfully for me_**
+_Compiled Successfully for me_
 
 **src/tools/monitor_save**
 ```bash
 make src/tools/monitor_save
 ```
-**_Compiled Successfully for me_**
+_Compiled Successfully for me_
 
 **src/tools/mega65_ftp**
 ```bash
 make src/tools/mega65_ftp
 ```
-**_Compiled Successfully for me_**
+_Compiled Successfully for me_
 
 **bin/te0725.bit**
 ```bash
 make bin/te0725.bit
 ```
-**_Did not compile for me yet_**
-bin/te0725.bit is the only target that i have not gotten to run yet, Error is
+_Compiled Successfully for me - i think it did properly atleast_
 
 #### General Make
 ```bash
