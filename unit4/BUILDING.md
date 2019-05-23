@@ -45,36 +45,36 @@ As part of this Workshop Unit 4 - only the following targets were needed to comp
 ```bash
 cd ~/mega65-core
 ```
-	**simulation**
-	```bash
-	make simulate
-	```
-	**_Compiled Successfully for me_**
+**simulation**
+```bash
+make simulate
+```
+**_Compiled Successfully for me_**
 
-	**src/tools/monitor_load**
-	```bash
-	make src/tools/monitor_load
-	```
-	**_Compiled Successfully for me_**
+**src/tools/monitor_load**
+```bash
+make src/tools/monitor_load
+```
+**_Compiled Successfully for me_**
 
-	**src/tools/monitor_save**
-	```bash
-	make src/tools/monitor_save
-	```
-	**_Compiled Successfully for me_**
+**src/tools/monitor_save**
+```bash
+make src/tools/monitor_save
+```
+**_Compiled Successfully for me_**
 
-	**src/tools/mega65_ftp**
-	```bash
-	make src/tools/mega65_ftp
-	```
-	**_Compiled Successfully for me_**
+**src/tools/mega65_ftp**
+```bash
+make src/tools/mega65_ftp
+```
+**_Compiled Successfully for me_**
 
-	**bin/te0725.bit**
-	```bash
-	make bin/te0725.bit
-	```
-	**_Did not compile for me yet_**
-	bin/te0725.bit is the only target that i have not gotten to run yet, Error is
+**bin/te0725.bit**
+```bash
+make bin/te0725.bit
+```
+**_Did not compile for me yet_**
+bin/te0725.bit is the only target that i have not gotten to run yet, Error is
 
 #### General Make
 ```bash
