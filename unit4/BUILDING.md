@@ -45,31 +45,31 @@ As part of this Workshop Unit 4 - only the following targets were needed to comp
 ```bash
 cd ~/mega65-core
 ```
-	- **simulation**
+	**simulation**
 	```bash
 	make simulate
 	```
 	**_Compiled Successfully for me_**
 
-	- **src/tools/monitor_load**
+	**src/tools/monitor_load**
 	```bash
 	make src/tools/monitor_load
 	```
 	**_Compiled Successfully for me_**
 
-	- **src/tools/monitor_save**
+	**src/tools/monitor_save**
 	```bash
 	make src/tools/monitor_save
 	```
 	**_Compiled Successfully for me_**
 
-	- **src/tools/mega65_ftp**
+	**src/tools/mega65_ftp**
 	```bash
 	make src/tools/mega65_ftp
 	```
 	**_Compiled Successfully for me_**
 
-	- **bin/te0725.bit**
+	**bin/te0725.bit**
 	```bash
 	make bin/te0725.bit
 	```
