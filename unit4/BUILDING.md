@@ -75,7 +75,7 @@ make bin/te0725.bit
 ```
 _Compiled Successfully for me - i think it did properly atleast_
 
-#### General Make
+#### Those were the targets needed for this workshop - but for a General Make use
 ```bash
 cd ~/mega65-core
 make
