@@ -24,18 +24,59 @@ Was built on Ubuntu 18.04.2 LTS x86_64
 
 2. fpgajtag: https://www.github.com/MEGA65/mega65-core
 *Follow the code below to make*
-	- cd fpgajtag
-	- make
+```bash	
+	cd fpgajtag
+	make
+```
 
 **NOTE:** this worked for me, however the mega65 documentation states if make does not work for fpgajtag install the package - libusb-1.0-0-dev and try again or follow below
-	- sudo cp src.fpgajtag /usr/local/bin
-	- cd ..
-	- cd mega65-core
+```bash
+	sudo cp src.fpgajtag /usr/local/bin
+	cd ..
+	cd mega65-core
+```
 
 If installed the below should get a meaningful response
 	- fpgajtag --version
 
 ### Making mega65-core
+As part of this Workshop Unit 4 - only the following targets were needed to compile
+*Following requires you to be in ~/mega65-core*
+```bash
+cd ~/mega65-core
+```
+	- **simulation**
+	```bash
+	make simulate
+	```
+	**_Compiled Successfully for me_**
+
+	- **src/tools/monitor_load**
+	```bash
+	make src/tools/monitor_load
+	```
+	**_Compiled Successfully for me_**
+
+	- **src/tools/monitor_save**
+	```bash
+	make src/tools/monitor_save
+	```
+	**_Compiled Successfully for me_**
+
+	- **src/tools/mega65_ftp**
+	```bash
+	make src/tools/mega65_ftp
+	```
+	**_Compiled Successfully for me_**
+
+	- **bin/te0725.bit**
+	```bash
+	make bin/te0725.bit
+	```
+	**_Did not compile for me yet_**
+	bin/te0725.bit is the only target that i have not gotten to run yet, Error is
+
+#### General Make
 ```bash
 cd ~/mega65-core
 make
