@@ -1,0 +1,191 @@
+4a5
+> 
+9,13c10,14
+< iface 109.14.104.115 inet static
+< iface 39.243.129.209 inet static inherits ruins0
+< iface jam0 inet
+< iface ruins0 inet
+< iface ruins1 inet
+---
+> iface ftdi1 inet static inherits ruins0
+> iface ftdi2 inet static
+> iface jam0 inet dhcp
+> iface ruins0 inet static
+> iface ruins1 inet static
+7a8
+> 
+15,22c16,23
+< iface 15.16.98.214 inet static inherits castle4
+< iface 72.223.137.150 inet static inherits ruins3
+< iface castle4 inet
+< iface jam1 inet
+< iface ruins0 inet
+< iface ruins3 inet
+< iface wealth1 inet
+< iface wealth2 inet
+---
+> iface castle4 inet static
+> iface eth2 inet static inherits castle4
+> iface ftdi0 inet static inherits ruins3
+> iface jam1 inet dhcp
+> iface ruins0 inet static
+> iface ruins3 inet static
+> iface wealth1 inet static
+> iface wealth2 inet static
+11a12
+> 
+22,33c23,34
+< iface 14.34.193.237 inet static inherits castle0
+< iface 3.97.125.131 inet static
+< iface 44.147.144.30 inet static inhertis castle4
+< iface 82.198.157.100 inet
+< iface castle0 inet
+< iface castle4 inet
+< iface eth0 inet
+< iface eth5 inet
+< iface ftdi3 inet
+< iface ruins1 inet
+< iface ruins3 inet
+< iface wealth2 inet
+---
+> iface castle0 inet static
+> iface castle4 inet static
+> iface eth0 inet static
+> iface eth4 inet static inherits castle4
+> iface eth5 inet dhcp
+> iface ftdi2 inet static
+> iface ftdi3 inet dhcp
+> iface jam1 inet static inherits castle0
+> iface ruins1 inet static
+> iface ruins3 inet static
+> iface wealth2 inet static
+> iface wlan6 inet static
+5a6
+> 
+9,14c10,15
+< iface jam1 inet
+< iface moths0 inet
+< iface moths2 inet
+< iface ruins1 inet
+< iface wlan0 inet
+< iface wlan2 inet inherits ruins1
+---
+> iface jam1 inet dhcp
+> iface moths0 inet static
+> iface moths2 inet static
+> iface ruins1 inet static
+> iface wlan0 inet dhcp
+> iface wlan2 inet dhcp inherits ruins1
+11a12
+> 
+21,32c22,33
+< iface 102.168.82.255 inet static inherits ruins2
+< iface 114.101.248.182 inet static inherits ruins0
+< iface 127.82.243.150 inet static inherits wealth3
+< iface 80.145.139.101 inet static inherits wealth3
+< iface eth0 inet inherits ruins0
+< iface eth2 inet
+< iface ruins0 inet
+< iface ruins1 inet
+< iface ruins2 inet
+< iface wealth3 inet
+< iface wealth4 inet
+< iface wlan5 inet inherits wealth3
+---
+> iface eth0 inet dhcp inherits ruins0
+> iface eth1 inet static inherits wealth3
+> iface eth2 inet dhcp
+> iface ftdi3 inet static inherits ruins2
+> iface ftdi4 inet static inherits wealth3
+> iface jam6 inet static inherits ruins0
+> iface ruins0 inet static
+> iface ruins1 inet static
+> iface ruins2 inet static
+> iface wealth3 inet static
+> iface wealth4 inet static
+> iface wlan5 inet dhcp inherits wealth3
+Incorrect answer for question 61 in 'unit3/answers.txt'
+Incorrect answer for question 62 in 'unit3/answers.txt'
+Incorrect answer for question 63 in 'unit3/answers.txt'
+Incorrect answer for question 66 in 'unit3/answers.txt'
+Incorrect answer for question 70 in 'unit3/answers.txt'
+Incorrect answer for question 71 in 'unit3/answers.txt'
+Incorrect answer for question 73 in 'unit3/answers.txt'
+Incorrect answer for question 74 in 'unit3/answers.txt'
+Incorrect answer for question 75 in 'unit3/answers.txt'
+Incorrect answer for question 76 in 'unit3/answers.txt'
+Incorrect answer for question 78 in 'unit3/answers.txt'
+345/400 after HASH:unit3/answers.txt:unit3/check.txt
+diff unit3/iface0-solution.txt.sorted unit3/iface0-sorted.txt | wc -l > wc.log
+Diff output has 14 lines different:
+diff unit3/iface0-solution.txt.sorted unit3/iface0-sorted.txt
+Answer file 'unit3/iface0-solution.txt' has incorrect hash -- something is not exactly correct.
+345/500 after SORT:unit3/iface0-solution.txt:unit3/iface0-sorted.txt:unit3/iface0-hash.txt
+diff unit3/iface1-solution.txt.sorted unit3/iface1-sorted.txt | wc -l > wc.log
+Diff output has 20 lines different:
+diff unit3/iface1-solution.txt.sorted unit3/iface1-sorted.txt
+Answer file 'unit3/iface1-solution.txt' has incorrect hash -- something is not exactly correct.
+365/600 after SORT:unit3/iface1-solution.txt:unit3/iface1-sorted.txt:unit3/iface1-hash.txt
+diff unit3/iface2-solution.txt.sorted unit3/iface2-sorted.txt | wc -l > wc.log
+Diff output has 28 lines different:
+diff unit3/iface2-solution.txt.sorted unit3/iface2-sorted.txt
+Answer file 'unit3/iface2-solution.txt' has incorrect hash -- something is not exactly correct.
+383/700 after SORT:unit3/iface2-solution.txt:unit3/iface2-sorted.txt:unit3/iface2-hash.txt
+diff unit3/iface3-solution.txt.sorted unit3/iface3-sorted.txt | wc -l > wc.log
+Diff output has 16 lines different:
+diff unit3/iface3-solution.txt.sorted unit3/iface3-sorted.txt
+Answer file 'unit3/iface3-solution.txt' has incorrect hash -- something is not exactly correct.
+388/800 after SORT:unit3/iface3-solution.txt:unit3/iface3-sorted.txt:unit3/iface3-hash.txt
+diff unit3/iface4-solution.txt.sorted unit3/iface4-sorted.txt | wc -l > wc.log
+Diff output has 28 lines different:
+diff unit3/iface4-solution.txt.sorted unit3/iface4-sorted.txt
+Answer file 'unit3/iface4-solution.txt' has incorrect hash -- something is not exactly correct.
+406/900 after SORT:unit3/iface4-solution.txt:unit3/iface4-sorted.txt:unit3/iface4-hash.txt
+No entry '30.251.173.0    0.0.0.0         255.255.255.240 ' in file 'unit3/routetable0add.log'
+No entry '121.175.168.0   0.0.0.0         255.255.255.128 ' in file 'unit3/routetable0add.log'
+No entry '16.202.211.138  10.1.1.2        255.255.255.254 ' in file 'unit3/routetable0add.log'
+No entry '63.125.219.192  0.0.0.0         255.255.255.192 ' in file 'unit3/routetable0add.log'
+No entry '11.178.64.0     0.0.0.0         255.255.224.0   ' in file 'unit3/routetable0add.log'
+No entry '58.180.158.156  10.1.1.2        255.255.255.254 ' in file 'unit3/routetable0add.log'
+6 entries in route table were wrong.
+406/925 after MATCH:+unit3/routes0.txt:unit3/routetable0add.log
+431/950 after MATCH:-unit3/routes0.txt:unit3/routetable0del.log
+No entry '72.174.237.72   0.0.0.0         255.255.255.252 ' in file 'unit3/routetable1add.log'
+No entry '89.121.192.208  10.1.1.2        255.255.255.248 ' in file 'unit3/routetable1add.log'
+No entry '124.21.243.4    0.0.0.0         255.255.255.254 ' in file 'unit3/routetable1add.log'
+No entry '32.8.136.0      0.0.0.0         255.255.255.224 ' in file 'unit3/routetable1add.log'
+No entry '22.6.75.208     0.0.0.0         255.255.255.240 ' in file 'unit3/routetable1add.log'
+No entry '33.184.0.0      10.1.1.2        255.255.0.0     ' in file 'unit3/routetable1add.log'
+6 entries in route table were wrong.
+431/975 after MATCH:+unit3/routes1.txt:unit3/routetable1add.log
+456/1000 after MATCH:-unit3/routes1.txt:unit3/routetable1del.log
+No entry '30.54.0.0       10.1.1.2        255.255.0.0     ' in file 'unit3/routetable2add.log'
+No entry '90.27.3.224     10.1.1.2        255.255.255.240 ' in file 'unit3/routetable2add.log'
+No entry '104.118.64.0    0.0.0.0         255.255.192.0   ' in file 'unit3/routetable2add.log'
+No entry '14.130.250.246  10.1.1.2        255.255.255.254 ' in file 'unit3/routetable2add.log'
+No entry '64.103.160.0    10.1.1.2        255.255.224.0   ' in file 'unit3/routetable2add.log'
+No entry '88.137.0.0      0.0.0.0         255.255.192.0   ' in file 'unit3/routetable2add.log'
+6 entries in route table were wrong.
+456/1025 after MATCH:+unit3/routes2.txt:unit3/routetable2add.log
+481/1050 after MATCH:-unit3/routes2.txt:unit3/routetable2del.log
+No entry '121.47.0.0      10.1.1.2        255.255.128.0   ' in file 'unit3/routetable3add.log'
+No entry '48.238.75.0     10.1.1.2        255.255.255.0   ' in file 'unit3/routetable3add.log'
+No entry '36.151.56.0     0.0.0.0         255.255.248.0   ' in file 'unit3/routetable3add.log'
+No entry '81.62.112.0     10.1.1.2        255.255.252.0   ' in file 'unit3/routetable3add.log'
+No entry '101.162.80.0    0.0.0.0         255.255.252.0   ' in file 'unit3/routetable3add.log'
+No entry '118.175.130.240 0.0.0.0         255.255.255.248 ' in file 'unit3/routetable3add.log'
+6 entries in route table were wrong.
+481/1075 after MATCH:+unit3/routes3.txt:unit3/routetable3add.log
+506/1100 after MATCH:-unit3/routes3.txt:unit3/routetable3del.log
+No entry '93.93.15.64     10.1.1.2        255.255.255.192 ' in file 'unit3/routetable4add.log'
+No entry '73.113.7.0      10.1.1.2        255.255.255.192 ' in file 'unit3/routetable4add.log'
+No entry '26.175.0.0      0.0.0.0         255.255.0.0     ' in file 'unit3/routetable4add.log'
+No entry '110.225.178.236 0.0.0.0         255.255.255.252 ' in file 'unit3/routetable4add.log'
+No entry '48.77.255.0     10.1.1.2        255.255.255.128 ' in file 'unit3/routetable4add.log'
+No entry '11.24.219.120   0.0.0.0         255.255.255.248 ' in file 'unit3/routetable4add.log'
+6 entries in route table were wrong.
+506/1125 after MATCH:+unit3/routes4.txt:unit3/routetable4add.log
+531/1150 after MATCH:-unit3/routes4.txt:unit3/routetable4del.log
+SUMMARY:531/1150
+TOTAL:46
+NOTE: The figures above are based on the work submitted at this point in time.  It does not take into account any late penalties. Nor does is stop you from submitting an updated version. It is simply an automatically generated summary of the raw score that your current work has obtained.
