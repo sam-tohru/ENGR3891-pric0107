@@ -1,5 +1,6 @@
 ### VM's IP addresses
 VM 1: 10.1.1.4 
+
 VM 2: 10.1.1.6
 
 ### Firewall to block port 22 (ssh) on VM1
