@@ -1,5 +1,10 @@
 #!/bin/bash
 # I give permission for this assignment to be shared with my peers for the purpose of peer evauluation
+
+# this is a simple bash remake of the Google chrome dinosaur game
+# this is not a text adventure, i decided to make a different type of game 
+# as it says in the specifications it says you can make a different type of game
+
 # VARIABLES 
 
 IFS=''
